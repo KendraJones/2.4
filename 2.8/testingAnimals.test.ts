@@ -14,8 +14,8 @@ class Animal {
   
 class Fish extends Animal {
     saltwater: boolean;
-    constructor(name: string, sound: string, food: string, saltwater: boolean) {
-        super(name, sound, food)
+    constructor(name: string, food: string, saltwater: boolean) {
+        super(name, null, food)
         this.saltwater = saltwater;
     }
     soundOff(): string {
@@ -67,8 +67,8 @@ class Birds extends Animal {
     });
     describe("Birds", () => {
       // Bird should actually take four arguments
-      let swallow = new Bird("swallow", "chattering chirp", "insects", 11);
-      let emu = new Bird("emu", "grunt", "plants and insects", 0);
+      let swallow = new Birds("swallow", "chattering chirp", "insects", 11);
+      let emu = new Birds("emu", "grunt", "plants and insects", 0);
       it("are animals", () => {
         // Bird *must* extend Animal
         expect(swallow instanceof Animal).toBeTruthy();
