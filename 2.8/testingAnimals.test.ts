@@ -22,7 +22,7 @@ class Fish extends Animal {
         return `The ${this.name} is a fish and does not make sounds.`;
     }
     habitat(): string {
-        return `The ${this.name} is a ${this.saltwater} fish.`;
+        return `The ${this.name} is a ${this.saltwater ? "saltwater": "freshwater"} fish.`;
     }
 }
 
@@ -33,7 +33,9 @@ class Birds extends Animal {
         this.flightSpeed = flightSpeed;
     }
     fly(): string {
+      if (this.flightSpeed > 0)
         return `The ${this.name} flies at speeds of up to ${this.flightSpeed} meters per second!`
+        else return `The ${this.name} is a flightless bird.`
     }
 }
   
