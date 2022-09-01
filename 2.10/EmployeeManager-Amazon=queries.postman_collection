@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "27e0d3f4-05e1-4177-9d73-daba99ac4e63",
+		"name": "EmployeeManager & Amazon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6583976"
+	},
+	"item": [
+		{
+			"name": "Get Employees",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://peaceful-inlet-88854.herokuapp.com/api/employees",
+					"protocol": "https",
+					"host": [
+						"peaceful-inlet-88854",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://m.media-amazon.com/images/I/11vfaoupqxL._AC_.png",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\""
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.amazon.com/"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://m.media-amazon.com/images/I/11vfaoupqxL._AC_.png",
+					"protocol": "https",
+					"host": [
+						"m",
+						"media-amazon",
+						"com"
+					],
+					"path": [
+						"images",
+						"I",
+						"11vfaoupqxL._AC_.png"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41oaGzuRimL._BG0,0,0,0_FMpng_AC_SY160_SX160_.jpg",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "m.media-amazon.com"
+					},
+					{
+						"key": "accept",
+						"value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.amazon.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "image"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "no-cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41oaGzuRimL._BG0,0,0,0_FMpng_AC_SY160_SX160_.jpg",
+					"protocol": "https",
+					"host": [
+						"m",
+						"media-amazon",
+						"com"
+					],
+					"path": [
+						"images",
+						"W",
+						"WEBP_402378-T2",
+						"images",
+						"I",
+						"41oaGzuRimL._BG0,0,0,0_FMpng_AC_SY160_SX160_.jpg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/516zkCIpPrL._BG0,0,0,0_FMpng_AC_SY160_SX160_.jpg",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\""
+					},
+					{
+						"key": "Referer",
+						"value": "https://www.amazon.com/"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					}
+				],
+				"url": {
+					"raw": "https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/516zkCIpPrL._BG0,0,0,0_FMpng_AC_SY160_SX160_.jpg",
+					"protocol": "https",
+					"host": [
+						"m",
+						"media-amazon",
+						"com"
+					],
+					"path": [
+						"images",
+						"W",
+						"WEBP_402378-T2",
+						"images",
+						"I",
+						"516zkCIpPrL._BG0,0,0,0_FMpng_AC_SY160_SX160_.jpg"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
